@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-full mb-12">
+    <div class="flex flex-col w-full mb-24">
         <h1 class="font-normal">Education 📖</h1>
         <div
             data-orientation="horizontal"

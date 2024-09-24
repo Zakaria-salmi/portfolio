@@ -1,22 +1,28 @@
 <template>
     <div
-        class="fixed bottom-6 right-6 w-[200px] h-[50px] border border-zinc-700 rounded-xl flex flex-row justify-between items-center"
+        class="fixed bottom-5 left-2/4 -translate-x-2/4 p-2 border border-zinc-700 bg-black bg-opacity-50 rounded-xl flex flex-row justify-between items-center transition ease-in-out hover:scale-125 duration-500 neon-hover"
     >
-        <div class="ml-6">
-            <button class="align-super text-xl">🇫🇷</button>
-        </div>
-        <div class="mr-6">
-            <a href="mailto:z.salmi0302@gmail.com" target="_blank">
-                <i class="fa-solid fa-envelope text-3xl"></i>
+        <div class="mx-6 flex items-center">
+            <a
+                href="mailto:z.salmi0302@gmail.com"
+                target="_blank"
+                class="transition ease-in-out hover:scale-125 duration-300 color"
+            >
+                <i class="fa-solid fa-at text-3xl"></i>
             </a>
             <a
                 href="https://www.linkedin.com/in/zakaria-salmi-191a16234/"
                 target="_blank"
+                class="transition ease-in-out hover:scale-125 duration-300 color"
             >
-                <i class="fa-brands fa-linkedin text-3xl ml-2"></i>
+                <i class="devicon-linkedin-plain text-3xl ml-4"></i>
             </a>
-            <a href="https://github.com/Zakaria-salmi" target="_blank">
-                <i class="fa-brands fa-github text-3xl ml-2"></i>
+            <a
+                href="https://github.com/Zakaria-salmi"
+                target="_blank"
+                class="transition ease-in-out hover:scale-125 duration-300 color"
+            >
+                <i class="devicon-github-original text-3xl ml-4"></i>
             </a>
         </div>
     </div>
@@ -24,4 +30,12 @@
 
 <script setup></script>
 
-<style></style>
+<style>
+.neon-hover:hover {
+    box-shadow: rgba(151, 151, 167, 0.2) 0px 0px 29px 5px;
+}
+
+.color:hover {
+    color: #ffffff;
+}
+</style>

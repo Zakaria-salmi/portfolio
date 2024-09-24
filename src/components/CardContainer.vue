@@ -5,15 +5,24 @@
     <div
         class="grid sm:grid-cols-2 lg:grid-col:2 xl:grid-cols-2 gap-2 mt-[0.75rem]"
     >
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card
+            v-for="(project, index) in projects"
+            :key="index"
+            :project="project"
+        />
     </div>
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import Card from "./Card.vue";
+import data from "../project/projects.json";
+
+const projects = ref([]);
+
+onMounted(() => {
+    projects.value = data;
+});
 </script>
 
-<style></style>
+<style scoped></style>

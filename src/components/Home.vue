@@ -1,11 +1,5 @@
-<script setup>
-import Home from "./components/Home.vue";
-import Contact from "./components/Contact.vue";
-import { RouterView } from "vue-router";
-</script>
-
 <template>
-    <!-- <div class="flex flex-col justify-start items-center h-screen">
+    <div class="flex flex-col justify-start items-center h-screen">
         <div
             class="flex flex-col flex-wrap items-center justify-center mt-[3rem] p-3 w-full max-w-[650px]"
         >
@@ -16,11 +10,14 @@ import { RouterView } from "vue-router";
             <Jobs />
             <Education />
         </div>
-    </div> -->
-    <!-- <Home />
-    <Contact /> -->
-    <RouterView />
-    <Contact />
+    </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import CardContainer from "./CardContainer.vue";
+import Education from "./Education.vue";
+import Jobs from "./Jobs.vue";
+import Profile from "./Profile.vue";
+</script>
+
+<style></style>

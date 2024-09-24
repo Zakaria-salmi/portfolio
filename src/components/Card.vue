@@ -4,23 +4,24 @@
     >
         <div class="w-full rounded-2xl mb-2">
             <img
-                :src="project"
+                :src="project.img"
                 alt="project"
                 class="object-cover object-center rounded-2xl"
             />
         </div>
         <div>
-            <h3 class="font-bold mb-2">Project</h3>
+            <h3 class="font-bold mb-2">{{ project.name }}</h3>
             <p class="text-sm text-slate-200">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Corrupti, minus ipsam neque velit accusamus facere.
+                {{ project.description }}
             </p>
         </div>
     </div>
 </template>
 
 <script setup>
-import project from "../../public/project.webp";
+const props = defineProps({
+    project: Object,
+});
 </script>
 
 <style></style>

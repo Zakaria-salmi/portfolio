@@ -7,7 +7,8 @@
                 <div>
                     <span
                         class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full animate-buttonheartbeat hover:cursor-pointer"
-                        ><img
+                    >
+                        <img
                             class="h-full w-full object-cover object-center"
                             alt="profile picture"
                             :src="pp"
@@ -15,6 +16,7 @@
                 </div>
                 <div>
                     <h1 class="font-semibold leading-7">Salmi Zakaria</h1>
+                    <p class="text-xs font-light">France - Le Mans 📍</p>
                     <p class="text-xs font-light">
                         Student &amp; Full Stack Developer
                     </p>
@@ -22,7 +24,8 @@
             </div>
             <div class="flex flex-col gap-1 mt-3">
                 <p class="text-xs font-bold">
-                    Looking for an apprenticeship in web or app development
+                    🎯 Status : Looking for an apprenticeship in web or app
+                    development
                 </p>
             </div>
         </div>
@@ -41,7 +44,7 @@
 </template>
 
 <script setup>
-import pp from "../../public/Photo.png";
+import pp from "../assets/Photo.png";
 </script>
 
 <style></style>
