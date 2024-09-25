@@ -34,11 +34,14 @@
             </div>
         </div>
         <div class="flex gap-2">
+            <a href="./Zakaria-Salmi-2025.pdf" download="CV-Salmi-Zakaria">
+                <i class="fa-regular fa-file text-3xl"></i>
+            </a>
             <a
                 href="https://www.linkedin.com/in/zakaria-salmi-191a16234/"
                 target="_blank"
             >
-                <i class="fa-brands fa-linkedin text-3xl"></i>
+                <i class="fa-brands fa-linkedin text-3xl ml-2"></i>
             </a>
             <a href="https://github.com/Zakaria-salmi" target="_blank">
                 <i class="fa-brands fa-github text-3xl ml-2"></i>

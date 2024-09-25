@@ -14,10 +14,6 @@
                 alt="project image"
                 class="article-image"
             />
-            <div
-                v-html="project.content[currentLanguage]"
-                class="prose dark:prose-invert prose-lg text-white min-w-full"
-            ></div>
             <div class="flex justify-center sm:justify-end mt-2">
                 <a
                     :href="project.github"
@@ -34,6 +30,10 @@
                     Demo
                 </a>
             </div>
+            <div
+                v-html="project.content[currentLanguage]"
+                class="prose dark:prose-invert prose-lg text-white min-w-full"
+            ></div>
         </div>
 
         <div v-else>
