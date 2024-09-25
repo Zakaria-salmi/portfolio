@@ -1,26 +1,23 @@
 <script setup>
-import Home from "./components/Home.vue";
+import { ref, provide } from "vue";
 import Contact from "./components/Contact.vue";
+import LanguageSwitcher from "./components/LanguageSwitcher.vue";
 import { RouterView } from "vue-router";
+
+const currentLanguage = ref("en");
+
+provide("currentLanguage", currentLanguage);
+
+const changeLanguage = (lang) => {
+    currentLanguage.value = lang;
+    console.log(currentLanguage.value);
+};
 </script>
 
 <template>
-    <!-- <div class="flex flex-col justify-start items-center h-screen">
-        <div
-            class="flex flex-col flex-wrap items-center justify-center mt-[3rem] p-3 w-full max-w-[650px]"
-        >
-            <Profile />
-            <div class="max-w-[700px] my-[2rem] w-full">
-                <CardContainer />
-            </div>
-            <Jobs />
-            <Education />
-        </div>
-    </div> -->
-    <!-- <Home />
-    <Contact /> -->
     <RouterView />
     <Contact />
+    <LanguageSwitcher @language-changed="changeLanguage" />
 </template>
 
 <style scoped></style>

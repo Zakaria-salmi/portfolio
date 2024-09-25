@@ -1,6 +1,6 @@
 <template>
     <div
-        class="fixed bottom-5 left-2/4 -translate-x-2/4 p-2 border border-zinc-700 bg-black bg-opacity-50 rounded-xl flex flex-row justify-between items-center transition ease-in-out hover:scale-125 duration-500 neon-hover"
+        class="fixed bottom-5 left-2/4 -translate-x-2/4 p-2 border border-zinc-700 bg-black bg-opacity-50 rounded-xl flex flex-row justify-between items-center transition ease-in-out hover:scale-125 duration-500 neon-hover z-50"
     >
         <div class="mx-6 flex items-center">
             <a

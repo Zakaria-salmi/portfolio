@@ -12,20 +12,24 @@
                             class="h-full w-full object-cover object-center"
                             alt="profile picture"
                             :src="pp"
-                    /></span>
+                        />
+                    </span>
                 </div>
                 <div>
-                    <h1 class="font-semibold leading-7">Salmi Zakaria</h1>
-                    <p class="text-xs font-light">France - Le Mans 📍</p>
+                    <h1 class="font-semibold leading-7">
+                        {{ translations[currentLanguage].name }}
+                    </h1>
                     <p class="text-xs font-light">
-                        Student &amp; Full Stack Developer
+                        {{ translations[currentLanguage].location }}
+                    </p>
+                    <p class="text-xs font-light">
+                        {{ translations[currentLanguage].role }}
                     </p>
                 </div>
             </div>
             <div class="flex flex-col gap-1 mt-3">
                 <p class="text-xs font-bold">
-                    🎯 Status : Looking for an apprenticeship in web or app
-                    development
+                    🎯 {{ translations[currentLanguage].status }}
                 </p>
             </div>
         </div>
@@ -45,6 +49,24 @@
 
 <script setup>
 import pp from "../assets/Photo.png";
+import { inject } from "vue";
+
+const currentLanguage = inject("currentLanguage");
+
+const translations = {
+    en: {
+        name: "Salmi Zakaria",
+        location: "France - Le Mans 📍",
+        role: "Student & Full Stack Developer",
+        status: "Status: Looking for an apprenticeship in web or app development",
+    },
+    fr: {
+        name: "Salmi Zakaria",
+        location: "France - Le Mans 📍",
+        role: "Étudiant & Développeur Full Stack",
+        status: "Statut : À la recherche d'un apprentissage en développement web ou d'applications",
+    },
+};
 </script>
 
 <style></style>
