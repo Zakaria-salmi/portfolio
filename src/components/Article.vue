@@ -9,7 +9,11 @@
 
         <div v-if="project" class="container">
             <h1 class="article-title">{{ project.name }}</h1>
-            <img :src="project.img" alt="project image" class="article-image" />
+            <img
+                :src="`../${project.img}`"
+                alt="project image"
+                class="article-image"
+            />
             <div v-html="project.content[currentLanguage]"></div>
             <div class="flex justify-center sm:justify-end mt-2">
                 <a
