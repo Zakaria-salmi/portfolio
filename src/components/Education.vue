@@ -38,7 +38,8 @@ const translations = {
         educations: [
             {
                 institution: "EKOD",
-                details: "Software engineer - Vue.js - Node.js - Java - Docker",
+                details:
+                    "Software developer - Vue.js - Node.js - Java - Docker",
                 duration: "August 2024 - August 2025",
             },
             {

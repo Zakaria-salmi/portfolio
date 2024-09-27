@@ -1,5 +1,20 @@
 [
     {
+        "id": 4,
+        "name": "OmniFile",
+        "description": {
+            "en": "OmniFile is a file conversion app built with Vue.js, allowing users to upload, select a format, and convert files with ease. Once converted, the files can be downloaded in their new format.",
+            "fr": "OmniFile est une application de conversion de fichiers développée avec Vue.js, permettant aux utilisateurs de télécharger, sélectionner un format et convertir facilement leurs fichiers. Une fois convertis, les fichiers peuvent être téléchargés."
+        },
+        "img": "./omniflex.png",
+        "url": "#",
+        "github": "https://github.com/Zakaria-salmi",
+        "content": {
+            "en": "Coming soon !",
+            "fr": "En développement !"
+        }
+    },
+    {
         "id": 1,
         "name": "GameInfo",
         "description": {
