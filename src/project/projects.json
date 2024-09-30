@@ -3,15 +3,15 @@
         "id": 4,
         "name": "OmniFile",
         "description": {
-            "en": "OmniFile is a file conversion app built with Vue.js, allowing users to upload, select a format, and convert files with ease. Once converted, the files can be downloaded in their new format.",
-            "fr": "OmniFile est une application de conversion de fichiers développée avec Vue.js, permettant aux utilisateurs de télécharger, sélectionner un format et convertir facilement leurs fichiers. Une fois convertis, les fichiers peuvent être téléchargés."
+            "en": "OmniFile is a file conversion application that allows users to easily convert files from one format to another. Whether you want to transform images or documents, OmniFile simplifies the process by providing an intuitive user interface and a powerful backend.",
+            "fr": "OmniFile est une application de conversion de fichiers qui permet aux utilisateurs de convertir facilement des fichiers d'un format à un autre. Que vous souhaitiez transformer des images ou des documents, OmniFile simplifie le processus en fournissant une interface utilisateur intuitive et un backend puissant."
         },
-        "img": "./omniflex.png",
-        "url": "#",
-        "github": "https://github.com/Zakaria-salmi",
+        "img": "./omnifile.png",
+        "url": "https://omni-file-frontend.vercel.app/",
+        "github": "https://github.com/Zakaria-salmi/OmniFile",
         "content": {
-            "en": "Coming soon !",
-            "fr": "En développement !"
+            "en": "<div class=\"w-full mx-auto p-3\">\n    <h1 class=\"text-3xl font-bold mb-4\">OmniFile</h1>\n    <p class=\"mb-3\">\n        OmniFile is a file conversion application that allows users to easily convert files from one format to another. Whether you want to transform images or documents, OmniFile simplifies the process by providing an intuitive user interface and a powerful backend.\n    </p>\n    <h2 class=\"text-2xl font-semibold mb-2\">Features</h2>\n    <ul class=\"list-disc list-inside mb-3\">\n        <li>Image Conversion: Convert between multiple image formats, including JPEG, PNG, GIF, and more.</li>\n        <li>Document Conversion: Coming soon.</li>\n        <li>Video Conversion: Coming soon.</li>\n        <li>Audio Conversion: Coming soon.</li>\n        <li>User-friendly interface: A simple interface for uploading files, selecting formats, and retrieving converted files.</li>\n        <li>Error handling: Clear notifications in case of conversion errors.</li>\n    </ul>\n    <h2 class=\"text-2xl font-semibold mb-2\">Technologies Used</h2>\n    <ul class=\"list-disc list-inside\">\n        <li>Frontend: Vue.js with the Composition API for a responsive user experience.</li>\n        <li>Backend: Node.js with Express to handle conversion requests and files.</li>\n        <li>Libraries: Sharp for image conversion.</li>\n    </ul>\n</div>",
+            "fr": "<div class=\"w-full mx-auto p-6\">\n    <h1 class=\"text-3xl font-bold mb-4\">OmniFile</h1>\n    <p class=\"mb-3\">\n        OmniFile est une application de conversion de fichiers qui permet aux utilisateurs de convertir facilement des fichiers d'un format à un autre. Que vous souhaitiez transformer des images ou des documents, OmniFile simplifie le processus en fournissant une interface utilisateur intuitive et un backend puissant.\n    </p>\n    <h2 class=\"text-2xl font-semibold mb-2\">Fonctionnalités</h2>\n    <ul class=\"list-disc list-inside mb-3\">\n        <li>Conversion d'images : Convertissez entre plusieurs formats d'image, y compris JPEG, PNG, GIF, et plus encore.</li>\n        <li>Conversion de documents : À venir.</li>\n        <li>Conversion de vidéos : À venir.</li>\n        <li>Conversion audio : À venir.</li>\n        <li>Interface utilisateur conviviale : Une interface simple pour télécharger des fichiers, choisir des formats et récupérer des fichiers convertis.</li>\n        <li>Gestion des erreurs : Notifications claires en cas d'erreurs de conversion.</li>\n    </ul>\n    <h2 class=\"text-2xl font-semibold mb-2\">Technologies utilisées</h2>\n    <ul class=\"list-disc list-inside\">\n        <li>Frontend : Vue.js avec la Composition API pour une expérience utilisateur réactive.</li>\n        <li>Backend : Node.js avec Express pour gérer les requêtes de conversion et les fichiers.</li>\n        <li>Librairies : Sharp pour la conversion d'images.</li>\n    </ul>\n</div>"
         }
     },
     {
