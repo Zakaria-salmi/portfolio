@@ -1,5 +1,20 @@
 [
     {
+        "id": 5,
+        "name": "Anime Stream",
+        "description": {
+            "en": "Anime Stream is a streaming platform built with Nuxt.js and Nuxt UI, offering a modern and intuitive interface for watching anime. The application provides a seamless streaming experience with features like user authentication, favorites management, and episode tracking. Powered by Supabase for database and authentication.",
+            "fr": "Anime Stream est une plateforme de streaming construite avec Nuxt.js et Nuxt UI, offrant une interface moderne et intuitive pour regarder des animes. L'application fournit une expérience de streaming fluide avec des fonctionnalités telles que l'authentification des utilisateurs, la gestion des favoris et le suivi des épisodes. Propulsé par Supabase pour la base de données et l'authentification."
+        },
+        "img": "./animestream.png",
+        "url": "https://anime-stream.vercel.app/",
+        "github": "https://github.com/Zakaria-salmi/anime-stream",
+        "content": {
+            "en": "<div class=\"w-full mx-auto p-3\">\n    <h1 class=\"text-3xl font-bold mb-4\">Anime Stream</h1>\n    <p class=\"mb-3\">\n        Anime Stream is a modern streaming platform that provides users with a seamless experience for watching their favorite anime series. Built with Nuxt.js and enhanced with Nuxt UI components, the platform offers a sleek and responsive interface.\n    </p>\n    <h2 class=\"text-2xl font-semibold mb-2\">Features</h2>\n    <ul class=\"list-disc list-inside mb-3\">\n        <li>User authentication and profile management</li>\n        <li>Extensive anime library with detailed information</li>\n        <li>Episode tracking and progress saving</li>\n        <li>Favorites list management</li>\n        <li>Advanced search and filtering options</li>\n        <li>Responsive design for all devices</li>\n    </ul>\n    <h2 class=\"text-2xl font-semibold mb-2\">Technologies Used</h2>\n    <ul class=\"list-disc list-inside\">\n        <li>Nuxt.js 3</li>\n        <li>Nuxt UI</li>\n        <li>Vue.js</li>\n        <li>Tailwind CSS</li>\n        <li>Pinia for state management</li>\n        <li>Supabase for database and authentication</li>\n    </ul>\n</div>",
+            "fr": "<div class=\"w-full mx-auto p-6\">\n    <h1 class=\"text-3xl font-bold mb-4\">Anime Stream</h1>\n    <p class=\"mb-3\">\n        Anime Stream est une plateforme de streaming moderne qui offre aux utilisateurs une expérience fluide pour regarder leurs séries d'anime préférées. Construite avec Nuxt.js et enrichie avec les composants Nuxt UI, la plateforme propose une interface élégante et réactive.\n    </p>\n    <h2 class=\"text-2xl font-semibold mb-2\">Fonctionnalités</h2>\n    <ul class=\"list-disc list-inside mb-3\">\n        <li>Authentification utilisateur et gestion de profil</li>\n        <li>Bibliothèque d'anime extensive avec informations détaillées</li>\n        <li>Suivi des épisodes et sauvegarde de la progression</li>\n        <li>Gestion de la liste des favoris</li>\n        <li>Options de recherche et de filtrage avancées</li>\n        <li>Design responsive pour tous les appareils</li>\n    </ul>\n    <h2 class=\"text-2xl font-semibold mb-2\">Technologies utilisées</h2>\n    <ul class=\"list-disc list-inside\">\n        <li>Nuxt.js 3</li>\n        <li>Nuxt UI</li>\n        <li>Vue.js</li>\n        <li>Tailwind CSS</li>\n        <li>Pinia pour la gestion d'état</li>\n        <li>Supabase pour la base de données et l'authentification</li>\n    </ul>\n</div>"
+        }
+    },
+    {
         "id": 4,
         "name": "OmniFile",
         "description": {

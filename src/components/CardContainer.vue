@@ -2,13 +2,12 @@
     <div class="flex items-center justify-between w-full">
         <h2 class="text-gray-200 font-normal">Projects ✨</h2>
     </div>
-    <div
-        class="grid sm:grid-cols-2 lg:grid-col:2 xl:grid-cols-2 gap-2 mt-[0.75rem]"
-    >
+    <div class="columns-1 sm:columns-2 gap-2 mt-[0.75rem] space-y-2">
         <Card
             v-for="(project, index) in projects"
             :key="index"
             :project="project"
+            class="break-inside-avoid"
         />
     </div>
 </template>
