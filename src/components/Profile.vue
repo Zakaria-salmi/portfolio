@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="flex gap-2">
-            <a href="./Zakaria-Salmi-2025.pdf" download="CV-Salmi-Zakaria">
+            <a href="./Zakaria-Salmi-CV.pdf" download="CV-Salmi-Zakaria">
                 <i class="fa-regular fa-file text-3xl"></i>
             </a>
             <a
